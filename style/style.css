@@ -30,13 +30,7 @@
 }
 
 <!-- style for left menu
-#leftMenu { /* Parent Wrapper for inside boxes */
-display: inline; /* IE Hack */
-width: 20%;
-float: left;
-text-align: left;
-border:1px solid black;
-}
+
 .mainnav {
  list-style: none;
 }
@@ -76,7 +70,7 @@ ul.mainnav li a:hover {
 #mainContent {
     float: left;
     width: auto; /* Not 50% because of 1px border. */
-    border: 1px solid #F00;
+    margin-left: 10px;
 }
 
 #leftMenu ul

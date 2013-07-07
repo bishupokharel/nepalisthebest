@@ -14,7 +14,7 @@
 
 <div id="leftMenu" ><?php include("includes/sideMenu.php");?></div>
 <div id="mainContent">
-<h2>Isn't Nepal the BEST ?</h2>
+<h2>Please visit this site later.We are still in the early phase of development. </h2>
 </div>
 </div>
 <div id="footer"><?php include("includes/footer.php");?></div>
