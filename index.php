@@ -4,7 +4,7 @@
 <title>Nepal is the best</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="style/style.css" />
-<link rel="icon" type="image/png"  href="img/faviicon.png"/>
+<link rel="icon" type="image/png" href="img/faviicon.png" />
 </head>
 <body>
 <div id="wholeBody">
@@ -12,8 +12,10 @@
 <div id="header"><?php include("includes/header.php");?></div>
 <div id="mainBody">
 
+<div id="leftMenu" ><?php include("includes/sideMenu.php");?></div>
+<div id="mainContent">
 <h2>Isn't Nepal the BEST ?</h2>
-
+</div>
 </div>
 <div id="footer"><?php include("includes/footer.php");?></div>
 </div>
