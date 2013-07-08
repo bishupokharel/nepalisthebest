@@ -1,4 +1,5 @@
     <ul class="mainnav">
+        <li><a href="#">Home</a></li>
        <li><a href="#">History</a></li>
        <li><a href="#">Public Attraction</a></li>
        <li><a href="#">Langauges</a></li>

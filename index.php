@@ -12,12 +12,24 @@
 <div id="header"><?php include("includes/header.php");?></div>
 <div id="mainBody">
 
+<?php
+
+$page = 'index';
+// or you could use $page = $_SERVER['PHP_SELF'] ;
+include ( 'hitcounter/counter.php');
+addinfo($page);
+
+?>
+
 <div id="leftMenu" ><?php include("includes/sideMenu.php");?></div>
 <div id="mainContent">
 <h2>Please visit this site later.We are still in the early phase of development. </h2>
 </div>
 </div>
-<div id="footer"><?php include("includes/footer.php");?></div>
+<div id="footer">
+<?php include("includes/footer.php");?>
+
+</div>
 </div>
 </div>
 
