@@ -10,6 +10,7 @@
 <div id="wholeBody">
 <div id="mainContainer">
 <div id="header"><?php include("includes/header.php");?></div>
+<div id="topMenu"><?php include("includes/topMenu.php");?></div>
 <div id="mainBody">
 
 <?php
@@ -21,7 +22,6 @@ addinfo($page);
 
 ?>
 
-<div id="leftMenu" ><?php include("includes/sideMenu.php");?></div>
 <div id="mainContent">
 <h2>Please visit this site later.We are still in the early phase of development. </h2>
 </div>
